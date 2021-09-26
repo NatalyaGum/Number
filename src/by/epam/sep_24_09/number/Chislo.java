@@ -5,8 +5,17 @@ public class Chislo {
 
     public Chislo(float num) {
         this.num = num;
-        }
     }
+
+    public float getNum() {
+        return num;
+
+    }
+
+
+
+
+}
 
 
 
