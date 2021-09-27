@@ -1,9 +1,13 @@
 package by.epam.sep_24_09.number.num_reader;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.io.*;
+import java.util.Arrays;
 
 public class NumReader {
-
+    static Logger logger = LogManager.getLogger();
     //read all file and make float array
     public static float[] readAllNum(String args) throws IOException {
         InputStream is = new FileInputStream(args);
@@ -14,8 +18,8 @@ public class NumReader {
         while ((dis2.available() > 0)) {
             arr[i] = dis.readFloat();
             i++;
-        }
-
+            }
+        logger.info("All Array: " + Arrays.toString(arr));
         return arr;
     }
 
@@ -32,6 +36,7 @@ public class NumReader {
             // System.out.print(arr[i]);
             i++;
         }
+        logger.info("Array [2]: " + Arrays.toString(arr));
         return arr;
 
 
