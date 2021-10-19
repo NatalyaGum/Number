@@ -1,10 +1,9 @@
-package by.epam.sep_24_09.number.fabric;
+package by.epam.task1.fabric;
 
-import by.epam.sep_24_09.number.Chislo;
+import by.epam.task1.Chislo;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.Arrays;
 import java.util.Random;
 
 public class FabricOfChislo {

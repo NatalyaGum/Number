@@ -1,12 +1,13 @@
-package by.epam.sep_24_09.number.test;
+package by.epam.task1.test;
 
-import by.epam.sep_24_09.number.Chislo;
-import by.epam.sep_24_09.number.fabric.FabricOfChislo;
-import by.epam.sep_24_09.number.math.Addition;
-import by.epam.sep_24_09.number.math.Division;
-import by.epam.sep_24_09.number.num_reader.NumReader;
+import by.epam.task1.Chislo;
+import by.epam.task1.fabric.FabricOfChislo;
+import by.epam.task1.math.Addition;
+import by.epam.task1.math.Division;
+import by.epam.task1.num_reader.NumReader;
+
 import java.io.IOException;
-import static by.epam.sep_24_09.number.math.Multiplication.multiply;
+import static by.epam.task1.math.Multiplication.multiply;
 
 
 public class Test {

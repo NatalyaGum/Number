@@ -1,4 +1,4 @@
-package by.epam.sep_24_09.number.num_reader;
+package by.epam.task1.num_reader;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

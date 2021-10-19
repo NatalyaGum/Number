@@ -1,9 +1,9 @@
-package by.epam.sep_24_09.number.math;
+package by.epam.task1.math;
 
 
 
-import by.epam.sep_24_09.number.Chislo;
-import by.epam.sep_24_09.number.num_reader.NumReader;
+import by.epam.task1.Chislo;
+import by.epam.task1.num_reader.NumReader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import java.io.IOException;
